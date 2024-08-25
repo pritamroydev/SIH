@@ -1,0 +1,74 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+};
+
+
+html,body{
+height: 100vh;
+width: 100%;
+}
+
+
+
+#box1{
+    z-index: 99;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 10px; */
+    /* margin-left: 50px; */
+    color: black;
+    background-color: #ffffff;
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.2em;
+    position: fixed;
+}
+#box2{
+    height: 80px;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    &hover{
+        cursor: pointer;
+
+    }
+}
+#Home{
+    height: 50vh;
+    width: 100%;
+    background-color: lightblue;
+}
+
+#PatientPortal{
+    height: 100vh;
+    width: 100%;
+    background-color: lightyellow;
+}
+
+#HospitalPortal{
+    height: 100vh;
+    width: 100%;
+    background-color: lightpink;
+}
+#About{
+    height: 70vh;
+    width: 100%;
+    background-color: lightcoral;
+}
+#footer{
+    height: 50vh;
+    width: 100%;
+    background-color: lightgrey;
+}
+
