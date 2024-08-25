@@ -60,6 +60,116 @@ a{
     height: 100vh;
     width: 100%;
     background-color: lightpink;
+    /* display: flex; */
+
+}
+#searchH{
+    padding: 10px 50px;
+    margin: 10px;
+    border-radius: 50px;
+    border: none;
+    
+    
+}
+#buttonH{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #06dada;
+    color: #fefefe;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background-color: #05c0c0 ;
+    }
+}
+#box3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#hospitalName{
+    background-color: lightyellow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+#save{
+    background-color: lightyellow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(246, 246, 183);
+    }
+}
+#logout{
+    background-color: lightyellow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(246, 246, 183);
+    }
+}
+#box3.box4{
+    justify-content: flex-end;
+}
+
+#box4{
+    display: flex; 
+}
+
+#data{
+    display: flex;
+}
+#tContents{
+    margin-top: 20px;
+    height: 60vh;
+    width: 80%;
+    background-color: rgb(206, 206, 206);
+    padding: 0 60px;
+    text-align: center;
+    
+    
+}
+tr{
+    border: solid 5px #000000;
+}
+#trHeading th{
+    /* margin-top: 20px; */
+    padding: 0 60px;
+    font-size: 1.2em;
+}
+.rData{
+    margin: 10px 20px;
+
+}
+.EditProfile{
+    padding: 10px 15px;
+}
+#tControls{
+    margin-top: 20px;
+    height: 60vh;
+    width: 20%;
+    background-color: rgb(245, 229, 229);
+    display: flex;
+    flex-direction: column;
+
+}
+.cButtons{
+    padding: 10px 20px;
+    margin: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(192, 255, 192);
+    cursor: pointer;
+    &:hover{
+        background-color: lightgreen;
+    }
+
 }
 #About{
     height: 70vh;
